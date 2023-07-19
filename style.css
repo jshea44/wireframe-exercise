@@ -1,0 +1,66 @@
+
+
+
+
+header {
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 10px;
+  flex: 1;
+  text-align: center;
+}
+
+#textContainer {
+  height: 360px;
+  overflow: auto;
+}
+
+
+
+
+#bottomDiv {
+  display: flex;
+  height: 480px;
+}
+
+#section {
+  display: inline-block;
+  height: 480px;
+  width: 400px;
+}
+
+#fourthSectionImg {
+  display: inline-block;
+}
+
+button {
+  height: 20px;
+  width: 100px;
+  margin: 15px;
+}
+
+
+
+#logo {
+  display: inline-block;
+}
+
+
+img {
+  margin: 15px;
+}
+
+footer {
+  background-color: black;
+  height: 100px;
+}
