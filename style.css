@@ -1,7 +1,4 @@
 
-
-
-
 header {
   background-color: lightgray;
   display: flex;
@@ -20,33 +17,49 @@ nav a {
   text-align: center;
 }
 
-#textContainer {
-  height: 360px;
+#topDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  height: 250px;
   overflow: auto;
 }
 
-
+#midDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
 
 
 #bottomDiv {
   display: flex;
-  height: 480px;
+  /* height: 400px; */
+  align-items: center;
+  justify-content: center;
+ 
 }
 
 #section {
   display: inline-block;
-  height: 480px;
-  width: 400px;
+  height: 400px;
+  width: 450px;
+  margin: 15px;
 }
 
-#fourthSectionImg {
-  display: inline-block;
-}
+
 
 button {
   height: 20px;
   width: 100px;
   margin: 15px;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 350ms;
 }
 
 
@@ -62,5 +75,9 @@ img {
 
 footer {
   background-color: black;
-  height: 100px;
+  height: 50px;
+}
+
+button:hover {
+  background-color: purple;
 }
